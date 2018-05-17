@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ImpossibleList</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <ul class="menu">
+     <li class="active"><a href="<%= static_pages_home_path %>">Home</a></li>
+     <li class=""><%= link_to 'Im Doing Stuff' , static_pages_doing_stuff_path %></li>
+     <li class><%= link_to 'Impossible List' , goals_path %></li>
+     <li class=""><%= link_to 'Contact' , static_pages_contact_path %></li>
+    </ul>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  status: false
+  goal_type: MyString
+  completed_date: 2018-05-17
+  link: MyString
+
+two:
+  name: MyString
+  status: false
+  goal_type: MyString
+  completed_date: 2018-05-17
+  link: MyString
