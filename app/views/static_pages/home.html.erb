@@ -1,5 +1,6 @@
-<div class="intro">
+<main>
     <h1>Who Am I?</h1>
+    <div class="intro">
     <p>I’m a student at Asheville-Buncombe Technical Community College in the Software and Web Development Program.</p> 
 
     <p>I’m a veteran.</p>
@@ -7,6 +8,22 @@
     <p>I’m a dog lover and an amateur gardener.</p>
 
     <p>I’m an idealist and I have the dogged determination to acheive my goals.</p>
-</div>
+    </div>
 
-<div class="heroImage"><%= image_tag("meAndTheGirls-compressor.jpg", alt: "Meghan in Iraq with little girls")%></div>
+    <figure class="heroImage">
+        <%= image_tag("meAndTheGirls-compressor.jpg", alt: "Meghan in Iraq with little girls")%>
+        <figcaption>Me hanging out with some little girls on a mission in Iraq in 2008</figcaption>
+    </figure>
+    <figure class="row">
+        <%= image_tag("diploma-compressor.jpg", alt: "Meghan with Syracuse University Military Multimedia Program diploma")%>
+        <figcaption>Me with my diploma from Syracuse University's Military Motion Media Program in 2007</figcaption>
+    </figure>
+    <figure class="row">
+        <%= image_tag("meAndTaffy-compressor.jpg", alt: "Meghan and Taffy at Camp Unleashed")%>
+        <figcaption>Me and my dogs, Taffy and Nugget, at Camp Unleashed in 2016</figcaption>
+    </figure>
+    <figure class="row">
+        <%= image_tag("meWIthACane-compressor.jpg", alt:"Meghan walking with a cane with her service dog, Taffy")%>
+        <figcaption>Me at a Warrior Ride event with my service dog, Taffy in 2010.</figcaption>
+    </figure>
+</main>
